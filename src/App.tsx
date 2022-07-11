@@ -85,7 +85,7 @@ function App() {
       <GlobalStyle />
       <Wrapper>
         <h1>Funny quiz</h1>
-        {gameOver || userAnswers.length === totalQuestions ? (
+        {gameOver || userAnswers.length === totalQuestions+1? (
           <div className="settings">
             <button className="start" onClick={startQuiz}>
               start
@@ -131,9 +131,9 @@ function App() {
         {!gameOver &&
         !loading &&
         userAnswers.length === number + 1 &&
-        number !== totalQuestions -1 ? (
+        number !== totalQuestions ? (
           <button className="next" onClick={nextQuestion}>
-            Next Question
+            {number===totalQuestions-1 ? "Finished":"Next Question"}
           </button>
         ) : null}
       </Wrapper>

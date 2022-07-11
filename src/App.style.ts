@@ -39,19 +39,22 @@ export const Wrapper = styled.div`
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-top: 70px;
     }
 
     .options{
         display: flex;
-        min-width: 25vw;
-        justify-content: space-around;
+        min-width: 35vw;
+        justify-content: space-between;
+        margin-top: 40px;
         
         >select{
-            background: linear-gradient(180deg, #ffffff, #ffcc91);
+            background: linear-gradient(180deg, #ffffff, #7afffb);
             border: 1px solid #d38558;
             box-shadow: 0px 3px 7px rgba(0,0,0,0.25);
             border-radius: 5px;
-            height: 20px;
+            height: 25px;
+            width: 120px;
             margin: 10px 20;
             padding: 0 10px;
         }
@@ -73,14 +76,28 @@ export const Wrapper = styled.div`
         margin: 20px;
       }
 
-      .start,.next{
+      .start{
         cursor: pointer;
-        background: linear-gradient(180deg, #ffffff, #ffcc91);
-        border: 2px solid #d38558;
+        background: linear-gradient(180deg, #ffffff, #7afffb);
+        border: 2px solid #7afffb;
         box-shadow: 0px 5px 10px rgba(0,0,0,0.25);
         border-radius: 10px;
         height: 40px;
+        width: 150px;
         margin: 30px 0;
-        padding: 0 30px;
+        padding: 0 20px;
+        font-size: 1.2rem;
+      }
+
+      .next{
+        cursor: pointer;
+        background: linear-gradient(180deg, #ffffff, #7afffb);
+        border: 2px solid #7afffb;
+        box-shadow: 0px 5px 10px rgba(0,0,0,0.25);
+        border-radius: 10px;
+        height: 40px;
+        width: 150px;
+        margin: 30px 0;
+        padding: 0 20px;
       }
 `
