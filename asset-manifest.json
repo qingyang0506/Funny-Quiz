@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.js": "/Funny-Quiz/static/js/main.c606dd34.js",
+    "static/media/background.jpg": "/Funny-Quiz/static/media/background.c866d607938d6048d5e1.jpg",
+    "index.html": "/Funny-Quiz/index.html",
+    "main.c606dd34.js.map": "/Funny-Quiz/static/js/main.c606dd34.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.c606dd34.js"
+  ]
+}
